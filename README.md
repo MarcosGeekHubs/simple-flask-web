@@ -8,3 +8,4 @@ This is a simple flask app
 
 3. Use ``docker run -p 5000:5000 simpleweb:${TAG}`` to run the app on port 5000 
 .
+...
