@@ -6,4 +6,5 @@ This is a simple flask app
 
 2. Use ``docker-compose up`` to test. That will create an image named simpleweb:{$TAG}
 
-3. Use ``docker run -p 5000:5000 simpleweb:${TAG}`` to run the app on port 5000
+3. Use ``docker run -p 5000:5000 simpleweb:${TAG}`` to run the app on port 5000 
+.
