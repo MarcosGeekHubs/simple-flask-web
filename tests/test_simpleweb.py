@@ -4,6 +4,6 @@ def test_hello():
     """
     GIVEN a any user
     WHEN a user visits our website
-    THEN he/she should be greeted with a "Hello World!" message
+    THEN he/she should be greeted with a "Hello World! WTF!" message
     """
-    assert hello() == "Hello World!"
+    assert hello() == "Hello World! WTF!"
