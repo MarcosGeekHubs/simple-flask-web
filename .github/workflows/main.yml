@@ -56,7 +56,8 @@ jobs:
         uses: fifsky/ssh-action@master
         with:
           command: |
-            docker service update --image ${{ secrets.DOCKER_REPO  }}:${{ env.CURR_TAG }} web
+            docker service update --image ${{ secrets.DOCKER_REPO  }}:${{ env.CURR_TAG }} webapp
           host: ${{ secrets.HOST }}
           user: ec2-user
           key: ${{ secrets.PRIVATE_KEY}}
+
